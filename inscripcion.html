@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Vista2.css"> 
+    <link rel="stylesheet" href="Vista3.css"> 
+    <link rel="icon" href="Logo.ico">
+    <title>Zonex</title>
+</head>
+<body>
+    <header>
+        <h1>ZONEX</h1>
+        <div id="centrar">
+            <ul>
+                <li><a id="Botones" href="pagina.html">Inicio</a></li>
+                <li><a id="Botones" href="eventos.html">Eventos</a></li>
+                <li><a id="Botones" href="nosotros.html">Sobre nosotros</a></li>
+                <li><a id="Botones" href="inscripcion.html">Inscripciones</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Formulario de Inserción</h1>
+            <div id="Formularios">
+                <form id="Insercion" action="inscripcion.php" method="POST">
+                    <label for="Name">Nombre:</label><br>
+                    <input type="text" id="Name" name="name" required><br>
+                    
+                    <label for="Surname">Apellido:</label><br>
+                    <input type="text" id="Surname" name="surname" required><br>
+                    
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    
+                    <label for="Telefono">Teléfono:</label><br>
+                    <input type="text" id="Telefono" name="telefono"><br>
+                    
+                    <label for="Eventos">Eventos:</label><br>
+                    <select multiple id="Eventos" name="eventos[]">
+                        <option value="1" selected>Noche de juegos retro 12 de noviembre</option>
+                        <option value="2">Cosplay 10 de noviembre</option>
+                        <option value="3">Game & Dine 21 de noviembre</option>
+                        <option value="4">Realidad Virtual 2 de diciembre</option>
+                    </select><br>
+                    
+                    <input type="submit" id="submit" name="submit" value="Enviar"><br>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Grupo de "ZONEX". Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

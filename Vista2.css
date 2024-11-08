@@ -1,0 +1,241 @@
+
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, sans-serif;
+    display: flex; 
+    flex-direction: column; 
+
+
+  }
+
+
+body {
+    background: linear-gradient(to bottom, #3c009c 0%, rgba(242, 242, 242, 0) 70%); 
+    background-attachment: fixed; 
+    background-size: cover; 
+}
+
+main {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.textos{
+    color: white;
+    font-size: 20px;
+    border: 10px solid transparent;
+    padding: 15px;
+
+}
+.textos::first-letter{
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+.contenedor-horizontal{
+    width: 80%;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    background-color:rgb(3, 3, 80);
+}
+.centrado{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    color: rgba(22, 21, 21, 0.911);
+    text-shadow: 2px 2px 5px red;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ul li {
+    display: inline; 
+    margin-left: 10px; 
+    font-size: 24px; 
+}
+
+ul :link, ul :visited {
+    background-color: #252222fb; 
+    color: white; 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+#Botones {
+    border-radius: 8px;
+
+
+}
+
+#Botones:hover, #Botones:active {
+    background-color: rgb(89, 4, 247); 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    border: 1px solid rgb(110, 69, 138); 
+    border-radius: 8px; 
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px; 
+    background-color: #333; 
+    color: white; 
+    margin-top: auto; 
+}
+
+
+.contenedores-nosotros {
+    display: flex; 
+    align-items: center; 
+    background-color: #b17cdd; 
+    border: 2px solid #5222ff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    margin: 10px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-size: 1rem;
+    color: #333; 
+}
+
+.fotos {
+    max-width: 100px; 
+    margin-right: 20px; 
+    display: flex; 
+    align-items: center; 
+    background-color: #f2f2f2;
+    border: 2px solid #000000;
+    padding: 2px;
+    border-radius: 8px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    line-height: 1.6; 
+}
+
+.letra:first-letter {
+    font-size: 30px;
+    font-weight: bold; 
+    font-family: Impact; 
+}
+
+
+.fotos:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#FotoInicio1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f2f2f2; 
+    border: 2px solid #000000; 
+    padding: 2px; 
+    border-radius: 8px; 
+    max-width: 590px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-size: 1rem; 
+    line-height: 1.6; 
+}
+
+#FotoInicio1 img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+}
+
+
+#ibai, #aziz,#jon,#anouar {
+    flex-direction: row-reverse;
+}
+.blurred-background {
+    background-image: url(Diseño\ sin\ título\ \(1\).png);
+    background-size: cover;
+    height: 100vh; 
+    position: relative;
+    
+}
+#fondoeventos{
+    background-image: url(fondo2.jpg);
+}
+
+button{
+    padding: 10px;
+    background-color: #eb4d1d;
+    border-color: black;
+    border:  solid 10px;
+    border-radius: 15px;
+    
+}
+button:hover{
+    background-color: rgb(226, 128, 0); 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    border: 10px solid rgba(236, 98, 5, 0.959); 
+    border-radius: 8px; 
+}
+
+#titulo{
+    text-decoration: underline;
+    background-color: rgb(223, 93, 7);
+}
+
+
+#Formularios{
+    text-align: center;
+    width: 100%;
+    
+}
+ 
+
+.ajustes{
+    width: 50%;
+    height: 400px;
+    border:solid 5px rgb(177, 233, 86);
+}
+#eventtext{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin: 5px;
+}
+
+.linkedln {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.linkedln:hover, linkedln:active{
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+
+}
+.text3{
+    color: orangered;
+    font-weight: bold;
+}
+#centrar{
+    text-align: center;
+}
